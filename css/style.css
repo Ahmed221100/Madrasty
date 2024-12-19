@@ -1,0 +1,153 @@
+* {
+  padding: 0%;
+  margin: 0px;
+}
+/* start navbar */
+a {
+  text-decoration: none;
+}
+
+.pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+}
+/* end navbar */
+
+.pt-serif-regular-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-serif-regular {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-serif-regular-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-serif-bold-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* start header */
+
+header {
+  background: linear-gradient(
+      90.03deg,
+      rgba(48, 223, 126, 0.4) 360.44%,
+      rgba(63, 170, 115, 0.3) 90.16%
+    ),
+    url("../img/glass.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#search-addon {
+  background-color: rgba(48, 223, 126, 1);
+}
+
+.pt-serif-regular-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-serif-bold-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#intro-example {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* end header */
+
+/* start main section */
+
+.img1 {
+  position: absolute;
+  top: 2px;
+  left: -110px;
+  width: 4px;
+  z-index: 10;
+}
+.img2 {
+  position: relative;
+  z-index: 12;
+}
+.img3 {
+  width: 100px;
+  position: absolute;
+  top: 150px;
+  left: -120px;
+  z-index: 10;
+}
+
+.img1 img {
+  width: 120px;
+}
+
+.img2 img {
+  width: 350px;
+}
+.img3 img {
+  width: 160px;
+}
+
+/* end mainsection */
+
+/* start section2*/
+
+.section2 {
+  background-color: #8eb6d9;
+}
+
+/* end section2 */
+
+/* start third section */
+
+/*  end third section */
+
+/* start four section  */
+
+footer {
+  margin-top: 12px;
+  background-color: #0f7b65;
+  color: #e18871;
+  padding: 24px;
+  padding-bottom: 0px;
+  border-radius: 100px 100px 0px 0px;
+  margin-bottom: 0px;
+}
+
+/* end four section  */
+
+/* animation */
+
+.animate__fadeInDownBig {
+  animation-duration: 2s;
+}
+.animate__fadeInUpBig {
+  animation-duration: 3s;
+}
